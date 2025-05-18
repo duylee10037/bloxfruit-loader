@@ -19,7 +19,7 @@ local inputKey = getgenv().Key or ""
 
 -- Tải danh sách key từ file keys.txt trong repo bạn
 local success, validKeys = pcall(function()
-    return game:HttpGet("https://raw.githubusercontent.com/duylee10037/mybloxfruit/main/keys.txt")
+    return game:HttpGet("https://raw.githubusercontent.com/duylee10037/bloxfruit-loader/main/keys.txt")
 end)
 
 -- Kiểm tra nếu không tải được danh sách key
