@@ -19,7 +19,7 @@ local hwid = simpleHash(android_id)
 print("[INFO] HWID đã sinh: " .. hwid)
 
 -- Kiểm tra HWID và gán key nếu đúng
-if hwid == "14699" then
+if hwid == "11468" then
     getgenv().Key = "9605adcbe6b91566b761b45d"
     print("[KEY] Đã gán key hợp lệ.")
 else
